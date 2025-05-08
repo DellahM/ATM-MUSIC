@@ -49,3 +49,23 @@ if (userConfig) {
 }
 
 export default nextConfig
+
+
+
+
+const nextConfig = {
+  output: 'export',  // Outputs static HTML/CSS/JS
+  basePath: '/ATM-MUSIC',  // Your repo name
+  assetPrefix: '/ATM-MUSIC/',  // Your repo name with trailing slash
+  images: {
+    unoptimized: true,  // Required for static export
+  },
+};
+
+export default nextConfig;
+
+
+
+
+
+
